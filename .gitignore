@@ -1,4 +1,16 @@
-bin/
-obj/
+## Visual Studio
+.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+
+## Node
 node_modules/
+
+## Секреты
 .env
+
+## Прочее
+*.log
+*.nupkg
